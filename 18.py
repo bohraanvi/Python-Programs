@@ -1,0 +1,5 @@
+print("Enter first list")
+a=input().split()
+print("Enter second list")
+b=input().split()
+print(dict(zip(a,b)))

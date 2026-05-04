@@ -1,0 +1,5 @@
+print("ENTER FIRST LIST")
+a=list(map(int,input().split()))
+print("Enter second list")
+b=list(map(int,input().split()))
+print(sorted(a+b))

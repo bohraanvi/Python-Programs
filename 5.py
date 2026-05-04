@@ -1,9 +1,3 @@
-a=int(input("Enter a: "))
-b=int(input("Enter b: "))
-
-a=a^b
-b=a^b
-a=a^b
-
-print("a =",a)
-print("b =",b)
+print("Enter a list")
+t = tuple(map(int, input().split()))
+print(sum(1 for i in t if i % 2 == 0))

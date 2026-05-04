@@ -1,0 +1,7 @@
+print("Enter first list")
+a=set(map(int,input().split()))
+print("Enter second list")
+b=set(map(int,input().split()))
+print(a|b)
+print(a&b)
+print(a-b)
